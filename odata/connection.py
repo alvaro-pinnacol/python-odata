@@ -26,7 +26,7 @@ class ODataConnection(object):
     base_headers = {
         'Accept': 'application/json',
         'OData-Version': '4.0',
-        'User-Agent': 'python-odata {0}'.format(__version__),
+        'User-Agent': 'python-odata {0}'.format(version),
     }
     timeout = 90
 
